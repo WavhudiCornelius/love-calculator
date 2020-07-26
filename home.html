@@ -4,11 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gloria+Hallelujah&family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Love Calculator</title>
 </head>
 <body>
     <div class="container">
+        <!--Heading area-->
+        <div class="heading">
+            <h1>Love Calculator</h1>
+            <p>Test your love During this Pandemic</p>
+        </div>
+        <!--Input field area-->
         <div class="svg-background">
             <div class="input-div one">
                 <div class="i">
@@ -28,15 +35,17 @@
                     <input type="text" class="input" id="sname" required>
                 </div>
             </div>
+            <!--Percentage Box-->
             <div class="percentage-box">
                 <span class="percentage fa" id="prc"></span>
             </div>
+            <!--Message box-->
             <div class="message-box">
                 <span class="message" id="msg"></span>
             </div>
         </div>
+        <!--Calculate Button section-->
         <div class="calculate-btn">
-            <!--<input type="submit" class="btn" value="Calculate">-->
             <a href="#" onclick="myfunction()" type="submit" id="btn">
                 <span></span>
                 <span></span>
@@ -45,7 +54,6 @@
                 Calculate
             </a>
         </div>
-        
     </div>
     <script type="text/javaScript" src="main.js"></script>
 </body>

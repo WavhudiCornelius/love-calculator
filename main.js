@@ -1,11 +1,12 @@
 const inputs = document.querySelectorAll(".input");
 
-
+// raises the placeholder text in the input field when form is focused
 function addcl(){
 	let parent = this.parentNode.parentNode;
 	parent.classList.add("focus");
 }
 
+// lowers the placeholder text in the input field when form is no longer focused 
 function remcl(){
 	let parent = this.parentNode.parentNode;
 	if(this.value == ""){
@@ -38,8 +39,7 @@ function myfunction () {
         }
     }
     
-    
-    
+    // getting the api data and sending them to the html document model
     $.ajax(settings).done(function (response) {
         document.getElementById("prc").innerHTML = response['percentage'];
         percentageBox.classList.add("fa-heart");
