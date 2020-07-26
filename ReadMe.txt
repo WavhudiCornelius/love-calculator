@@ -12,5 +12,5 @@ Running this app on a localhost just open the home.html file.
 This app is suitable for both mobile and desktop view, but its best at mobile view. Its recommended to run it on your mobile.
 
 The app is hosted on heroku
-Heroku app link: https://love-calculator-static-site.herokuapp.com/
+Heroku app link: https://love-calculator-app.herokuapp.com/
 
