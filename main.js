@@ -24,6 +24,7 @@ function myfunction () {
 
     var fname = document.getElementById("fname").value;
     var sname = document.getElementById("sname").value;
+    var percentageBox = document.getElementById("prc");
 
     // fetching the data from the love calculator API
     var settings = {
@@ -37,8 +38,11 @@ function myfunction () {
         }
     }
     
+    
+    
     $.ajax(settings).done(function (response) {
         document.getElementById("prc").innerHTML = response['percentage'];
+        percentageBox.classList.add("fa-heart");
         document.getElementById("msg").innerHTML = response['result'];
     });
 }

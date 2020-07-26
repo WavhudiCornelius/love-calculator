@@ -271,3 +271,33 @@ a span:nth-child(4) {
         bottom: 100%;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .svg-background {
+        background-image: none;
+        /*display: grid;
+        grid-template-rows: 30% 15% 27.5% 27.5%;*/
+    }
+    .percentage-box {
+        grid-column-start: 6;
+        grid-row-start: 2;
+    }
+    .message-box {
+        grid-column-start: 6;
+        grid-row-start: 3;
+    }
+    .one {
+        grid-column-start: 6;
+        grid-row-start: 5;
+    }
+    
+    .two {
+        grid-column-start: 6;
+        grid-row-start: 7;
+    }
+    .calculate-btn {
+        margin-top: 0;
+        right: 0;
+        right: 3%;
+    }
+}
