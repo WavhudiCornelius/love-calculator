@@ -11,8 +11,7 @@ body {
 
 /************************
  *Styling the containers
- *************************/
-
+*************************/
 .container {
     width: 70vw;
     height: 70vh;
@@ -40,8 +39,7 @@ body {
  * Styles the message box,
  * heading,
  * percentage box
- *************************/
-
+*************************/
 h1 {
     margin-bottom: 0;
     color: #a50019;
@@ -95,8 +93,7 @@ p {
 
 /*********************************
  *Styling the input fields
- *********************************/
-
+*********************************/
 .input-div{
 	position: relative;
     display: grid;
@@ -195,12 +192,9 @@ h6 {
 
 /******************************
  * Styling the calculate button
- ******************************/
-
+******************************/
 .calculate-btn {
-    margin-top: 20px;
     position: relative;
-    right: 6.9%;
 }
 
 a {
@@ -233,8 +227,7 @@ a span {
 
 /********************************************
  * This deal with the animation of the button
- ********************************************/
-
+********************************************/
 a span:nth-child(1) {
     top: 0;
     left: -100%;
@@ -312,8 +305,7 @@ a span:nth-child(4) {
 
 /**********************
  *Handling mobile view
- **********************/
-
+**********************/
 @media screen and (max-width: 750px) {
     .svg-background {
         background-image: none;
